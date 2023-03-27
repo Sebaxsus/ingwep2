@@ -1,6 +1,17 @@
+@font-face {
+    font-family: 'QuicksandBook';
+    src: url('/fonts/Quicksand_Book-webfont.eot');
+    src: url('/fonts/Quicksand_Book-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/Quicksand_Book-webfont.woff') format('woff')
+    , url('/fonts/Quicksand_Book-webfont.ttf') format('truetype'), url('/fonts/Quicksand_Book-webfont.svg#QuicksandBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     color: #ffffff;
+    background-image: url('/images/bg.jpg');
     background: #413f3b ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 90%;
     margin: 0px;
     text-align: center;
@@ -13,6 +24,7 @@ a:hover{
     color: #ffffff;
 }
 .header{
+    background-image: url('/images/bg-header.jpg');
     padding: 0px;
     height: 100px;
     position: fixed;
@@ -22,12 +34,14 @@ a:hover{
 }
 .nav{
     float: right;
+    font-family: QuicksandBook, Arial, Helvetica, sans-serif;
     padding: 45px 0px 0px 0px;
     text-align: right;
 }
 .wrapper{
     width: 960px;
     margin: 0px auto;
+    background-image: url('/images/bg-triangle.png');
     background-repeat: no-repeat;
     background-position: 0px 0px;
     text-align: left;
@@ -36,6 +50,7 @@ a:hover{
     margin-bottom: 20px;
 }
 h1, h2{
+    font-family: QuicksandBook, Arial, Helvetica, sans-serif;
     font-weight: normal;
     text-transform: uppercase;
 }
@@ -44,6 +59,7 @@ h1{
     margin-top: 140px;
 }
 .date{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 75%;
     color: #b5c;
 }
@@ -53,6 +69,7 @@ h1{
     line-height: 1.4rem;
 }
 .main-story{
+    background-image: url('/images/triangles.png');
     background-repeat: no-repeat;
     background-position: 122px 142px;
     height: 570px;
@@ -75,6 +92,7 @@ h1{
     padding: 5px 10px;
 }
 .footer p{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 75%;
     text-align: right;
 }

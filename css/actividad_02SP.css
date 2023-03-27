@@ -11,32 +11,30 @@ figcaption{
 body{
     width: 100%;
     color: #666666;
-    background-color: #f9f8f6;
-    background-image: url('/images/dark-wood.jpg');
     background-position: center;
-    font-family: Georgia, Times, serif;
     line-height: 1.4em;
     margin: 0px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(227,199,103,1) 11%, rgba(98,42,70,1) 94%);
 }
 .wrapper{
     width: 940px;
     margin: 20px auto 20px auto;
-    background-color: #ffffff;
+    background-color: rgb(202, 193, 193);
     border: 2px solid #000000;
 }
-header{
-    height: 160px;
+header {
     background-image: url('/images/header.jpg');
 }
 h1{
-    text-indent:-9999px;
     width: 940px;
     height: 130px;
     margin: 0px;
+    color: #000;
 }
 nav, footer{
     clear: both;
-    color: #ffffff;
+    color: #fff;
     background-color: #aeaca8;
     height: 30px;
 }
@@ -53,12 +51,13 @@ nav li a{
 }
 nav li a:hover,
 nav li a.current{
-    color:#000000;
+    color:#000;
 }
 section.courses{
     float: left;
     width: 695px;
     border-right: 1px solid #eeeeee;
+    background-color: rgb(202, 193, 193);
 }
 article{
     clear: both;
@@ -75,6 +74,7 @@ figure{
     padding: 5px;
     margin: 20px;
     border: 1px solid #eeeeee;
+    background-color: rgb(196, 156, 156);
 }
 figcaption{
     font-size:90%;
@@ -84,6 +84,7 @@ aside{
     width: 230px;
     float: left;
     padding: 0px 0px 0px 20px;
+    background-color: rgb(202, 193, 193);
 }
 aside section a{
     display: block;
