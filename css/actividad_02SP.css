@@ -24,7 +24,7 @@ body{
     border: 2px solid #000000;
 }
 header {
-    background-image: url('/images/header.jpg');
+    background-image: url('../images/header.jpg');
 }
 h1{
     width: 940px;
