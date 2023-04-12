@@ -10,7 +10,7 @@
 body{
     width: 100%;
     color: #ffffff;
-    background-image: url('/images/bg.jpg');
+    background-image: url('../images/bg.jpg');
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 11%, rgba(63,42,98,1) 94%);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -28,7 +28,7 @@ a:hover{
 }
 .header{
     width: 100%;
-    background-image: url('/images/bg-header.jpg');
+    background-image: url('../images/bg-header.jpg');
     padding: 0px;
     height: 100px;
     position: fixed;
@@ -45,7 +45,7 @@ a:hover{
 .wrapper{
     width: 960px;
     margin: 0px auto;
-    background-image: url('/images/bg-triangle.png');
+    background-image: url('../images/bg-triangle.png');
     background-repeat: no-repeat;
     background-position: 0px 0px;
     text-align: left;
@@ -78,7 +78,7 @@ h1{
     line-height: 1.4rem;
 }
 .main-story{
-    background-image: url('/images/triangles.png');
+    background-image: url('../images/triangles.png');
     background-repeat: no-repeat;
     background-position: 122px 142px;
     height: 570px;
