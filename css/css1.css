@@ -1,0 +1,173 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat:300,400,700";
+.responsive-table-input-matrix {
+  margin: 1em 0;
+  width: 100%;
+}
+@media (min-width: 480px) {
+  .responsive-table-input-matrix .responsive-table-input-matrix {
+    width: auto;
+  }
+}
+.responsive-table-input-matrix tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.responsive-table-input-matrix tr td {
+  text-align: left;
+}
+@media (min-width: 480px) {
+  .responsive-table-input-matrix tr td {
+    text-align: center;
+  }
+}
+.responsive-table-input-matrix tr td:first-of-type {
+  text-align: left;
+}
+.responsive-table-input-matrix th {
+  display: none;
+}
+.responsive-table-input-matrix td {
+  display: block;
+}
+.responsive-table-input-matrix td:first-child {
+  padding-top: 0.5em;
+}
+.responsive-table-input-matrix td:last-child {
+  padding-bottom: 0.5em;
+}
+.responsive-table-input-matrix td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 9em;
+  display: inline-block;
+}
+@media (min-width: 480px) {
+  .responsive-table-input-matrix td:before {
+    display: none;
+  }
+}
+.responsive-table-input-matrix th:first-of-type {
+  text-align: left;
+}
+.responsive-table-input-matrix th,
+.responsive-table-input-matrix td {
+  text-align: center;
+}
+@media (min-width: 480px) {
+  .responsive-table-input-matrix th,
+  .responsive-table-input-matrix td {
+    display: table-cell;
+    padding: 0.25em 0.5em;
+  }
+  .responsive-table-input-matrix th:first-child,
+  .responsive-table-input-matrix td:first-child {
+    padding-left: 0;
+  }
+  .responsive-table-input-matrix th:last-child,
+  .responsive-table-input-matrix td:last-child {
+    padding-right: 0;
+  }
+}
+
+body {
+  padding: 0 2em;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #444;
+  background: rgb(123,235,246);
+  background: linear-gradient(90deg, rgba(123,235,246,1) 0%, rgba(245,77,185,1) 94%);
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: -1px;
+  color: #34495e;
+  text-align: center;
+}
+
+.responsive-table {
+  background: #34495e;
+  color: #fff;
+  border-radius: 0.4em;
+  overflow: hidden;
+}
+.responsive-table tr {
+  border-color: #46637f;
+}
+.responsive-table th,
+.responsive-table td {
+  margin: 0.5em 1em;
+}
+@media (min-width: 480px) {
+  .responsive-table th,
+  .responsive-table td {
+    padding: 1em !important;
+  }
+}
+.responsive-table th,
+.responsive-table td:before {
+  color: #dd5;
+}
+
+
+@media (min-width: 480px) {
+    .container{
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .container input {
+        width: 25%;
+        margin: auto;
+        overflow: hidden;
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .container button {
+        width: 25%;
+        overflow: hidden;
+        text-align: center;
+        border-style: double;
+        border-color: grey;
+        border-radius: 5px;
+        cursor: pointer;
+    };
+
+  .topnav {
+    background-color: black;
+    overflow: hidden;
+    padding-bottom: 25px;
+    padding-top: 5px;
+  }
+  /* modifico las etiquetas a para que esten dentro del topnav*/
+
+  .topnav a {
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    background: #46637f;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-bottom: 25px;
+  }
+  /* cambio el color de los link cuando el mouse este encima*/
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  /*Color a los link activos o usados?*/
+  .topnav a:active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+}
+

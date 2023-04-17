@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Web con Api!</title>
+    <link rel="icon" href="../images/Unilogo.ico">
+    <link rel="stylesheet" href="../css/css1.css">
+    <script src="../scripts/functions.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Estudiantes Registrados</h1>
+    <div class="topnav">
+        <a class="active" href="../index.html">Inicio</a>
+        <a href="#botones">Botones</a>
+    </div>
+    <br>
+    <div id="resultado"></div>
+    <div class="container">
+        <input type="text" id="nombre" placeholder="Nombre">
+        <input type="text" id="apellido" placeholder="Apellido">
+        <input type="number" id="edad" placeholder="Edad">
+        <input type="number" id="id" placeholder="id(Solo usar en actualizar)">
+    </div>
+    <div class="container" id="botones">
+        <button onclick="traerInformacion()" style="background: darkgoldenrod; color: azure;">Consultar</button>
+        <button onclick="guardarInformacion()" style="background: darkgreen; color: azure;">Insertar</button>
+        <button onclick="editarInformacion()" style="background: darkcyan; color: azure;">Actualizar</button>
+    </div>
+    <footer style="text-align: center; padding-top: 50px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:aliceblue;">Pagina realizada por Juan Sebastian Garcia Redondo</footer>
+</body>
+    
+</html>
