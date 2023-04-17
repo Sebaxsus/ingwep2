@@ -41,7 +41,7 @@ function guardarInformacion() {
             type:"POST",
             data: dataToSend,
             datatype:"JSON",
-            content:'application/json',
+            contentType:'application/json',
             success:function(respuesta, status){
                 console.log(respuesta, status);
                 alert("Insercion Exitosa");
